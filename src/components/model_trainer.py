@@ -14,10 +14,10 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
 from xgboost import XGBRegressor
 
-from industrial_predictive_maintenance.exception import CustomException
-from industrial_predictive_maintenance.logger import logging
+from src.exception import CustomException
+from src.logger import logging
 
-from industrial_predictive_maintenance.utils import save_object,evaluate_models
+from src.utils import save_object,evaluate_models
 
 @dataclass
 class ModelTrainerConfig:

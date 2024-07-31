@@ -1,6 +1,6 @@
 screenshots/*
 industrial_predictive_maintenance/*
-
+assets/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

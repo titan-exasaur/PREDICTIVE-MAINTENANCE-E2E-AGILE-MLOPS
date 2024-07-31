@@ -7,9 +7,9 @@ from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from industrial_predictive_maintenance.exception import CustomException
-from industrial_predictive_maintenance.logger import logging
-from industrial_predictive_maintenance.utils import save_object
+from src.exception import CustomException
+from src.logger import logging
+from src.utils import save_object
 
 @dataclass
 class DataTransformationConfig:
