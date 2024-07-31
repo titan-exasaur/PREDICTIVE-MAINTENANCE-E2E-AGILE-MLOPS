@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+seaborn 
+scikit-learn
+streamlit
+streamlit-option-menu
+dill
+flask
+-e .
+
+
+
